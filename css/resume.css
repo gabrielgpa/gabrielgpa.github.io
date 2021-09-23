@@ -262,3 +262,7 @@ a {
 a:hover, a:focus, a:active {
   color: black;
 }
+
+a.subheading {
+  color: #868e96 !important;
+}
