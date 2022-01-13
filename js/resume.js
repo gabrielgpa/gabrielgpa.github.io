@@ -31,4 +31,6 @@
     theme: 'primary'
   });
 
+  $('#img_profile').attr('src', 'https://avatars.githubusercontent.com/u/16911793?v='+new Date().getTime());
+
 })(jQuery); // End of use strict
