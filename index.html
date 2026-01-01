@@ -16,12 +16,12 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <link rel="stylesheet" href="js/libs-external/devicon-master/devicon.css">
 
@@ -72,27 +72,58 @@
     <div class="container-fluid p-0">
 
         <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-            <div class="my-auto">
-                <h1 class="mb-0">Gabriel
-                    <span class="text-primary">Araújo</span>
-                </h1>
-                <div class="subheading mb-5">Canada · Québec ·
-                    <a href="mailto:name@email.com">gabrielaraujogpa@gmail.com</a>
+            <div class="my-auto hero-grid">
+                <div class="hero-intro">
+                    <p class="eyebrow">Backend & Cloud Engineer</p>
+                    <h1 class="mb-2">Gabriel
+                        <span class="text-accent">Araújo</span>
+                    </h1>
+                    <p class="lead mb-4">
+                        I'm a programmer analyst with over 10 years of experience in web and mobile software development and graduated in Computer Science in 2015. I have worked on many projects in the fields of insurance, e-commerce and consulting. I'm a passionate programming professional, proactive, who likes to work in a team and share his knowledge. I'm creative, autonomous, organized, collaborative and communicative.
+                    </p>
+                    <p class="lead mb-4">
+                        I have very good knowledge of Java 8/11/17/21, Spring Boot, Junit, Gradle, SQL, API Rest, Spring security/ Spring data, Nodejs and AWS. I use Agile (Scrum and Kanban) and TDD methodologies as part of software development and I like to develop my knowledge and face new challenges.
+                    </p>
+                    <div class="hero-meta mb-3">
+                        <span class="pill">Canada · Québec</span>
+                        <span class="pill">10+ years in software</span>
+                        <span class="pill">Insurance · E-commerce · Consulting</span>
+                    </div>
+                    <div class="hero-actions mb-4">
+                        <a class="btn btn-accent" href="mailto:gabrielaraujogpa@gmail.com">Let's talk</a>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/gabrielgpar/" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/gabrielgpa" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tag-grid">
+                        <span class="tag">Java 11/17/21</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">API Rest</span>
+                        <span class="tag">Nodejs</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">Agile · TDD</span>
+                    </div>
                 </div>
-                <p class="lead mb-5">
-                    I'm a programmer analyst with over 10 years of experience in web and mobile software development and graduated in Computer Science in 2015. <br>
-                    I have worked on many projects in the fields of insurance, e-commerce and consulting. <br>
-                    I'm a passionate programming professional, proactive, who likes to work in a team and share his knowledge. I'm creative, autonomous, organized, collaborative and communicative. <br>
-                    I have very good knowledge of Java 8/11/17/21, Spring Boot, Junit, Gradle, SQL, API Rest, Spring security/ Spring data, Nodejs and AWS. <br>
-                    I use Agile (Scrum and Kanban) and TDD methodologies as part of software development and I like to develop my knowledge and face new challenges.
-                </p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/gabrielgpar/" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://github.com/gabrielgpa" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
+                <div class="hero-panel">
+                    <div class="subheading mb-3">Current focus</div>
+                    <ul class="resume-points">
+                        <li>Process automation and microservices with Camunda BPM, Spring Boot 2/3 and Angular 19.</li>
+                        <li>Observability and CI/CD with Splunk, Cloud Foundry, Concourse CI and Github Actions.</li>
+                        <li>Microfrontends, security and API-first design for enterprise-scale delivery.</li>
+                    </ul>
+                    <div class="contact-card">
+                        <div class="subheading mb-2">Contact</div>
+                        <a class="contact-link" href="mailto:gabrielaraujogpa@gmail.com">gabrielaraujogpa@gmail.com</a>
+                        <div class="mini-links">
+                            <a href="https://www.linkedin.com/in/gabrielgpar/" target="_blank">LinkedIn</a>
+                            <a href="https://github.com/gabrielgpa" target="_blank">GitHub</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -103,62 +134,111 @@
             <div class="my-auto">
                 <h2 class="mb-5">Experience</h2>
 
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-item d-flex flex-column flex-md-row mb-5 card-dark">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Analyst Programmer</h3>
                         <div class="subheading mb-3"><a class="subheading" target="_blank" href="https://www.desjardins.com/">Groupe Technologies Desjardins inc.</a></div>
-                        <p>
-                            <ul>
-                                <li>Camunda BPM</li>
-                                <li>Java 11/17/21</li>
+                        <div class="tag-grid mb-3">
+                            <span class="tag">Camunda BPM</span>
+                            <span class="tag">Spring Boot 2/3</span>
+                            <span class="tag">Java 11/17/21</span>
+                            <span class="tag">Angular 19</span>
+                            <span class="tag">Microservices</span>
+                            <span class="tag">Microfrontends</span>
+                            <span class="tag">Cloud Foundry</span>
+                            <span class="tag">Concourse CI</span>
+                            <span class="tag">GitHub Actions</span>
+                            <span class="tag">Splunk</span>
+                        </div>
+                        <div class="collapsible exp-body">
+                            <ul class="resume-points">
                                 <li>SAFe Agile Methodology</li>
-                                <li>Spring Boot 2/3</li>
-                                <li>Angular 19</li>
-                                <li>Microservices</li>
-                                <li>Microfrontend</li>
                                 <li>Process automation</li>
-                                <li>Splunk</li>
-                                <li>Cloud Foundry</li>
-                                <li>Concourse CI</li>
-                                <li>Github Actions</li>
+                                <li>Designed and delivered end-to-end technical solutions, from requirements analysis to production deployment, ensuring reliability, scalability, and maintainability.</li>
+                                <li>Built, customized, and optimized CI/CD pipelines to standardize builds, deployments, and releases, improving delivery speed and operational consistency.</li>
+                                <li>Automated infrastructure and application workflows to reduce manual effort, minimize human error, and optimize operational costs.</li>
+                                <li>Implemented secure secret management and compliance-aligned automation practices, following organizational security and audit requirements.</li>
+                                <li>Actively monitored and enforced code quality standards, including static analysis, vulnerability scanning, test coverage, and maintainability metrics.</li>
+                                <li>Ensured testing strategies covered critical business scenarios, consistently meeting or exceeding minimum coverage targets.</li>
+                                <li>Contributed to risk identification and mitigation throughout planning and delivery cycles, providing technical assessments and feasibility analysis.</li>
+                                <li>Performed technical explorations and proofs of concept to evaluate new tools and platforms, producing clear recommendations based on security, compliance, and infrastructure constraints.</li>
+                                <li>Supported platform and database migration initiatives, contributing to data integrity, system stability, and cross-team integration.</li>
+                                <li>Played an active role in production releases and go-live activities, ensuring service stability and operational readiness.</li>
+                                <li>Acted as a technical point of contact during production incidents, collaborating with stakeholders to identify root causes and implement long-term fixes.</li>
+                                <li>Regularly presented technical demos and delivery updates, translating complex engineering topics into clear, actionable insights.</li>
+                                <li>Authored and maintained technical documentation as part of the delivery process, enabling knowledge sharing and long-term sustainability.</li>
+                                <li>Collaborated closely with product, development, and operations teams to prioritize work, align technical solutions with business needs, and ensure delivery transparency.</li>
+                                <li>Continuously improved engineering practices through automation, standardization, and adoption of modern DevOps and software development methodologies.</li>
+                                <li>Maintained a strong culture of continuous learning through hands-on experimentation, proofs of concept, and ongoing skill development.</li>
                             </ul>
-                        </p>
+                        </div>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">May 2023 - Present</span>
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-item d-flex flex-column flex-md-row mb-5 card-dark">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Senior Software Engineer</h3>
                         <div class="subheading mb-3"><a class="subheading" target="_blank" href="http://www.jcpm.com.br/">JCPM GROUP</a></div>
-                        <p>
-                            <ul>
+                        <div class="tag-grid mb-3">
+                            <span class="tag">NodeJs (serverless)</span>
+                            <span class="tag">Microservices</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Kubernetes</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">React Native</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Azure (Power BI)</span>
+                        </div>
+                        <div class="collapsible exp-body">
+                            <ul class="resume-points">
                                 <li>Responsible for the design, testing and implementation of computer programs and web and mobile applications.</li>
                                 <li>Assiduous participation in delivery strategies, using agile methods, workflow definition, metric analysis and documentation creation, using Jira to manage activities and metrics, Confluence and Github to create documentation and Wikis.</li>
                                 <li>Collaboration in technology definition, project structuring, good coding practices, conventions, code review, code documentation and execution of application tests. Provide technical assistance to the team to resolve more complex and critical software issues, analyzing the issue to determine the causes to ensure a definitive solution.</li>
-                                <li>Development of separation solutions to improve systems performance and move to new technologies that use microservices and serverless applications with NodeJs.</li>
-                                <ul>
-                                    <li>Development environment with Docker and Kubernetes</li>
-                                    <li>Mysql and MongoDB database</li>
-                                    <li>Front-end application development with ReactJs</li>
-                                    <li>Development of mobile applications with Flutter and React-native</li>
-                                </ul>
+                                <li>Development of separation solutions to improve systems performance and move to new technologies that use microservices and serverless applications with NodeJs.
+                                    <ul class="sub-points">
+                                        <li>Development environment with Docker and Kubernetes</li>
+                                        <li>Mysql and MongoDB database</li>
+                                        <li>Front-end application development with ReactJs</li>
+                                        <li>Development of mobile applications with Flutter and React-native</li>
+                                    </ul>
+                                </li>
                             </ul>
-                        </p>
+                        </div>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">March 2021 - March 2023</span>
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-item d-flex flex-column flex-md-row mb-5 card-dark">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Senior Software Engineer</h3>
                         <div class="subheading mb-3"><a class="subheading" target="_blank" href="https://www.fastsolucoes.com.br/">Fast Applications And Technological Solutions</a></div>
-                        <p>
-                            <ul>
+                        <div class="tag-grid mb-3">
+                            <span class="tag">Java Spring</span>
+                            <span class="tag">AngularJS</span>
+                            <span class="tag">React</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Jasmine</span>
+                            <span class="tag">TestNG</span>
+                            <span class="tag">Maven</span>
+                            <span class="tag">AWS CodePipeline</span>
+                            <span class="tag">AWS CodeBuild</span>
+                            <span class="tag">DXP Cloud</span>
+                            <span class="tag">Liferay</span>
+                            <span class="tag">Azure (Power BI)</span>
+                            <span class="tag">NodeJs</span>
+                            <span class="tag">Spring MVC</span>
+                            <span class="tag">Swagger</span>
+                            <span class="tag">OAuth2</span>
+                        </div>
+                        <div class="collapsible exp-body">
+                            <ul class="resume-points">
                                 <li>Creating REST APIs using Java Spring</li>
                                 <li>Creation of front-end, using AngularJs, as framework</li>
                                 <li>Use of the MySQL Database</li>
@@ -166,66 +246,80 @@
                                 <li>TestNG, for implementation of back-end unit testing</li>
                                 <li>Scrum, as agile methodology for management and planning of software projects;</li>
                                 <li>Use of maven, for automation and management of projects</li>
-                                <li>Development of modularized Java applications:</li>
-                                <ul>
-                                    <li>Allocation in the Liferay development team, using DXP Cloud</li>
-                                </ul>
+                                <li>Development of modularized Java applications:
+                                    <ul class="sub-points">
+                                        <li>Allocation in the Liferay development team, using DXP Cloud</li>
+                                    </ul>
+                                </li>
                                 <li>Frontend development with React and Angular</li>
                                 <li>API integrations with Azure (Power BI)</li>
                                 <li>Participation in international project</li>
-                                <li>Cloud experience with AWS for continuous delivery:</li>
-                                <ul>
-                                    <li>AWS CodePipeline</li>
-                                    <li>AWS CodeBuilder</li>
-                                </ul>
-                                <li>Creation of serverless applications:</li>
-                                <ul>
-                                    <li>NodeJs</li>
-                                    <li>Java (SpringMVC)</li>
-                                </ul>
+                                <li>Cloud experience with AWS for continuous delivery:
+                                    <ul class="sub-points">
+                                        <li>AWS CodePipeline</li>
+                                        <li>AWS CodeBuilder</li>
+                                    </ul>
+                                </li>
+                                <li>Creation of serverless applications:
+                                    <ul class="sub-points">
+                                        <li>NodeJs</li>
+                                        <li>Java (SpringMVC)</li>
+                                    </ul>
+                                </li>
                                 <li>Project leadership</li>
                                 <li>Leadership in onboarding new employees</li>
-                                <li>Technical leadership in software projects:</li>
-                                <ul>
-                                    <li>Code review</li>
-                                    <li>Implementation of a systems development process</li>
-                                    <li>Construction of APIs, using Spring Boot</li>
-                                    <li>Frontend development, with Angular and AngularJS</li>
-                                    <li>AWS infrastructure, for deployment and version control</li>
-                                    <li>API documentation, with Swagger</li>
-                                    <li>API integration,</li>
-                                    <li>SSO under the OAuth2 protocol</li>
-                                </ul>
+                                <li>Technical leadership in software projects:
+                                    <ul class="sub-points">
+                                        <li>Code review</li>
+                                        <li>Implementation of a systems development process</li>
+                                        <li>Construction of APIs, using Spring Boot</li>
+                                        <li>Frontend development, with Angular and AngularJS</li>
+                                        <li>AWS infrastructure, for deployment and version control</li>
+                                        <li>API documentation, with Swagger</li>
+                                        <li>API integration,</li>
+                                        <li>SSO under the OAuth2 protocol</li>
+                                    </ul>
+                                </li>
                                 <li>Interacting Lean / Inception team (conception of new products):</li>
                                 <li>Integrating a new product design team</li>
-                                <li>Use of agile methodological tools:</li>
-                                <ul>
-                                    <li>Lean MVP (Lean Startup)</li>
-                                    <li>Double Diamond (Design Thinking)</li>
-                                    <li>Prototype (Design sprint)</li>
-                                    <li>Mapping user stories (Puzzle B)</li>
-                                    <li>Planning poker (Scrum)</li>
-                                    <li>Continuous planning (XP)</li>
-                                    <li>Daily (Scrum)</li>
-                                    <li>Kanban board (Kanban)</li>
-                                    <li>Pair programming (XP)</li>
-                                    <li>Burndown chart (Scrum)</li>
-                                    <li>GUT (GUT Matrix)</li>
-                                </ul>
+                                <li>Use of agile methodological tools:
+                                    <ul class="sub-points">
+                                        <li>Lean MVP (Lean Startup)</li>
+                                        <li>Double Diamond (Design Thinking)</li>
+                                        <li>Prototype (Design sprint)</li>
+                                        <li>Mapping user stories (Puzzle B)</li>
+                                        <li>Planning poker (Scrum)</li>
+                                        <li>Continuous planning (XP)</li>
+                                        <li>Daily (Scrum)</li>
+                                        <li>Kanban board (Kanban)</li>
+                                        <li>Pair programming (XP)</li>
+                                        <li>Burndown chart (Scrum)</li>
+                                        <li>GUT (GUT Matrix)</li>
+                                    </ul>
+                                </li>
                             </ul>
-                        </p>
+                        </div>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">October 2018 - February 2021</span>
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-item d-flex flex-column flex-md-row mb-5 card-dark">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Full-Stack Senior Developer</h3>
                         <div class="subheading mb-3"><a class="subheading" target="_blank" href="http://www.ificomm.com/">IFICOMM Technology</a></div>
-                        <p>
-                            <ul>
+                        <div class="tag-grid mb-3">
+                            <span class="tag">SpringMVC</span>
+                            <span class="tag">AngularJS</span>
+                            <span class="tag">REST</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Ionic</span>
+                            <span class="tag">Maven</span>
+                        </div>
+                        <div class="collapsible exp-body">
+                            <ul class="resume-points">
                                 <li>Database modeling</li>
                                 <li>Java, with SpringMVC as a development framework backend</li>
                                 <li>Creation of the application front end, with AngularJs</li>
@@ -235,7 +329,7 @@
                                 <li>Mobile development, with Ionic Framework</li>
                                 <li>Use of maven for automation and management of projects</li>
                             </ul>
-                        </p>
+                        </div>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">September 2017 - September 2018</span><br>
@@ -243,30 +337,48 @@
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-item d-flex flex-column flex-md-row mb-5 card-dark">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Php Programmer</h3>
                         <div class="subheading mb-3"><a class="subheading" target="_blank" href="http://bvr.com.br/site/">BVR Consulting</a></div>
-                        <p>
-                            <ul>
+                        <div class="tag-grid mb-3">
+                            <span class="tag">PHP</span>
+                            <span class="tag">Zend Framework</span>
+                            <span class="tag">jQuery</span>
+                            <span class="tag">Postgres</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Android</span>
+                        </div>
+                        <div class="collapsible exp-body">
+                            <ul class="resume-points">
                                 <li>Using the Zend Framework 1 and 2, for development backend</li>
                                 <li>Using JavaScript (jQuery) for development front-end</li>
                                 <li>Postgres and MySQL Database</li>
                                 <li>Development of mobile applications, with native android</li>
                             </ul>
-                        </p>
+                        </div>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">November 2016 - August 2017</span>
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row">
+                <div class="resume-item d-flex flex-column flex-md-row card-dark">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Developer Internship</h3>
                         <div class="subheading mb-3"><a class="subheading" target="_blank" href="https://www.trinitysolucoes.com.br/">Trinity Soluções</a></div>
-                        <p>
-                            <ul>
+                        <div class="tag-grid mb-3">
+                            <span class="tag">PHP</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">Java (Android)</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Agile · Kanban</span>
+                            <span class="tag">Web services</span>
+                        </div>
+                        <div class="collapsible exp-body">
+                            <ul class="resume-points">
                                 <li>Support to the development of web and mobile systems</li>
                                 <li>PHP language, for creation of webservices</li>
                                 <li>JavaScript + CSS3 + Html, for applications frontend</li>
@@ -276,7 +388,7 @@
                                 <li>Experience with mobile and web systems integration</li>
                                 <li>Integration of ERPs, such as Winthor and Protheus</li>
                             </ul>
-                        </p>
+                        </div>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">September 2013 - August 2014</span>
@@ -293,7 +405,7 @@
             <div class="my-auto">
                 <h2 class="mb-5">Education</h2>
 
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-item d-flex flex-column flex-md-row mb-5 card-dark">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Uninabuco</h3>
                         <div class="subheading mb-3">Bachelor of Information Systems</div>
@@ -305,7 +417,7 @@
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row">
+                <div class="resume-item d-flex flex-column flex-md-row card-dark">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Getting Started with Docker</h3>
                         <div class="subheading mb-3">School of Net</div>
@@ -316,7 +428,7 @@
                     </div>
                 </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row">
+                <div class="resume-item d-flex flex-column flex-md-row card-dark">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Java Microservices with Spring Boot and Spring Cloud</h3>
                         <div class="subheading mb-3">Udemy</div>
@@ -336,124 +448,199 @@
             <div class="my-auto">
                 <h2 class="mb-5">Skills</h2>
 
-                <div class="subheading mb-3">Programming Languages</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item">
-                        <i class="devicon-html5-plain colored" data-tippy="HTML 5"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-css3-plain colored" data-tippy="CSS3"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-javascript-plain colored" data-tippy="JavaScript"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-java-plain colored" data-tippy="Java"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-php-plain colored" data-tippy="PHP"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-typescript-plain colored" data-tippy="TypeScript"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-android-plain colored" data-tippy="Android"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-nodejs-plain colored" data-tippy="NodeJs"></i>
-                    </li>
-                </ul>
-                
-                <div class="subheading mb-3">Frameworks</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item">
-                        <i class="devicon-laravel-plain colored" data-tippy="Laravel"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="icon-spring" data-tippy="SpringMVC/Boot"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicons devicons-ionic" data-tippy="Ionic Framework"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-jasmine-plain colored" data-tippy="Jasmine"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-mocha-plain colored" data-tippy="MochaJs"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-express-original colored" data-tippy="ExpressJs"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <img src="img/sailsjs.png" alt="sailsjs" data-tippy="SailsJs">
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-sequelize-plain colored" data-tippy="SequelizeJs"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-jquery-plain colored" data-tippy="Jquery"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-angularjs-plain colored" data-tippy="Angular"></i>
-                    </li>
-                </ul>
-                <div class="subheading mb-3">Database</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item">
-                        <i class="devicon-mongodb-plain colored" data-tippy="MongoDB"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-mysql-plain colored" data-tippy="MySQL"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-postgresql-plain colored" data-tippy="Postgres"></i>
-                    </li>
-                </ul>
-                <div class="subheading mb-3">infrastructure/DevOps</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item">
-                        <i class="fab fa-aws" data-tippy="Amazon Web Services"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-linux" data-tippy="Linux"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-docker-plain colored" data-tippy="Docker"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-digital-ocean" data-tippy="Digital Ocean"></i>
-                    </li>
-                </ul>
-                <div class="subheading mb-3">Tools</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item">
-                        <i class="devicon-gulp-plain colored" data-tippy="Gulp"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-grunt-line colored" data-tippy="Grunt"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="icon-tomcat" data-tippy="Tomcat"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-nginx-original colored" data-tippy="Nginx"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-jetbrains-plain colored" data-tippy="Jetbrains IDE's"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="icon-npm" data-tippy="NodeJS NPM"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-git-plain colored" data-tippy="Git"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-github-plain colored" data-tippy="Github"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-bitbucket-plain colored" data-tippy="Bitbucket"></i>
-                    </li>
-                </ul>
+                <div class="skill-grid">
+                    <div class="skill-block">
+                        <div class="subheading mb-3">Programming Languages</div>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item">
+                                <i class="devicon-html5-plain colored" data-tippy="HTML 5"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-css3-plain colored" data-tippy="CSS3"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-javascript-plain colored" data-tippy="JavaScript"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-java-plain colored" data-tippy="Java"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-php-plain colored" data-tippy="PHP"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-typescript-plain colored" data-tippy="TypeScript"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-android-plain colored" data-tippy="Android"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-nodejs-plain colored" data-tippy="NodeJs"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-block">
+                        <div class="subheading mb-3">Frameworks</div>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item">
+                                <i class="devicon-laravel-plain colored" data-tippy="Laravel"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="icon-spring" data-tippy="SpringMVC/Boot"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicons devicons-ionic" data-tippy="Ionic Framework"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-jasmine-plain colored" data-tippy="Jasmine"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-mocha-plain colored" data-tippy="MochaJs"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-express-original colored" data-tippy="ExpressJs"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <img src="img/sailsjs.png" alt="sailsjs" data-tippy="SailsJs">
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-sequelize-plain colored" data-tippy="SequelizeJs"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-jquery-plain colored" data-tippy="Jquery"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-angularjs-plain colored" data-tippy="Angular"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-block">
+                        <div class="subheading mb-3">Database</div>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item">
+                                <i class="devicon-mongodb-plain colored" data-tippy="MongoDB"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-mysql-plain colored" data-tippy="MySQL"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-postgresql-plain colored" data-tippy="Postgres"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-block">
+                        <div class="subheading mb-3">Infrastructure / DevOps</div>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item">
+                                <i class="fab fa-aws" data-tippy="Amazon Web Services"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fab fa-linux" data-tippy="Linux"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-docker-plain colored" data-tippy="Docker"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fab fa-digital-ocean" data-tippy="Digital Ocean"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-block">
+                        <div class="subheading mb-3">Tools</div>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item">
+                                <i class="devicon-gulp-plain colored" data-tippy="Gulp"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-grunt-line colored" data-tippy="Grunt"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="icon-tomcat" data-tippy="Tomcat"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-nginx-original colored" data-tippy="Nginx"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-jetbrains-plain colored" data-tippy="Jetbrains IDE's"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="icon-npm" data-tippy="NodeJS NPM"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-git-plain colored" data-tippy="Git"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-github-plain colored" data-tippy="Github"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="devicon-bitbucket-plain colored" data-tippy="Bitbucket"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-block">
+                        <div class="subheading mb-3">DevOps & Delivery</div>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item">
+                                <i class="fas fa-sync-alt" data-tippy="CI/CD (GitHub Actions, Concourse)"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-cloud" data-tippy="Cloud Foundry"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-cogs" data-tippy="Automation & IaC"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-lock" data-tippy="Secret management & compliance"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-shield-alt" data-tippy="Static analysis & security scanning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-eye" data-tippy="Observability (Splunk)"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-clipboard-list" data-tippy="Test strategy & coverage"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-exclamation-triangle" data-tippy="Release readiness & incident response"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-block">
+                        <div class="subheading mb-3">Architecture & Practices</div>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item">
+                                <i class="fas fa-project-diagram" data-tippy="Microservices & Microfrontends"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-key" data-tippy="API-first & security"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-robot" data-tippy="Process automation (Camunda BPM)"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-chart-line" data-tippy="Risk & feasibility analysis"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-flask" data-tippy="Proofs of concept"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-exchange-alt" data-tippy="Platform & data migrations"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-book" data-tippy="Documentation & knowledge sharing"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-graduation-cap" data-tippy="Continuous learning culture"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
         </section>
 
         <hr class="m-0">
@@ -462,75 +649,60 @@
             <div class="my-auto">
                 <h2 class="mb-5">Portfolio</h2>
 
-                <div class="row mb-5">
-                    <div class="col-lg-2 text-center">
-                        <a href="https://beclin.app/" target="_blank"><img class="portfolio-img c-pointer m-t-10 img-circle" src="img/projects/beclin.png" alt="beclin" height="80"/></a>
+                <div class="project-stack">
+                    <div class="project-card row align-items-center">
+                        <div class="col-lg-2 text-center">
+                            <a href="https://beclin.app/" target="_blank"><img class="portfolio-img c-pointer img-circle" src="img/projects/beclin.png" alt="beclin" height="80"/></a>
+                        </div>
+                        <div class="col-lg-7">
+                            <h3 class="mb-0">Beclin</h3>
+                            <div class="subheading mb-3">Management of dental offices</div>
+                            <div class="t-10"><a href="https://beclin.app/" target="_blank"><span>see more</span></a></div>
+                        </div>
                     </div>
 
-                    <div class="col-lg-7">
-                        <h3 class="mb-0">Beclin</h3>
-                        <div class="subheading mb-3">Management of dental offices</div>
-                        <div class="t-10"><a href="https://beclin.app/" target="_blank"><span>see more</span></a></div>
-                    </div>
-                </div>
-
-                <hr class="m-0">
-                <br>
-
-                <div class="row mb-5">
-                    <div class="col-lg-2 text-center">
-                        <a href="http://segoo.com.br" target="_blank"><img class="c-pointer m-t-10 img-circle" src="img/projects/segoo.png" alt="segoo" height="90" style="vertical-align: middle"/></a>
+                    <div class="project-card row align-items-center">
+                        <div class="col-lg-2 text-center">
+                            <a href="http://segoo.com.br" target="_blank"><img class="c-pointer img-circle" src="img/projects/segoo.png" alt="segoo" height="90" style="vertical-align: middle"/></a>
+                        </div>
+                        <div class="col-lg-7">
+                            <h3 class="mb-0">Segoo</h3>
+                            <div class="subheading mb-3">Manager of the Broker's Insurance Portfolio.</div>
+                            <div class="t-10"><a href="http://segoo.com.br" target="_blank"><span>see more</span></a></div>
+                        </div>
                     </div>
 
-                    <div class="col-lg-7">
-                        <h3 class="mb-0">Segoo</h3>
-                        <div class="subheading mb-3">Manager of the Broker's Insurance Portfolio.</div>
-                        <div class="t-10"><a href="http://segoo.com.br" target="_blank"><span>see more</span></a></div>
-                    </div>
-                </div>
-
-                <hr class="m-0">
-                <br>
-
-                <div class="row mb-5">
-                    <div class="col-lg-2 text-center">
-                        <a href="portfolio/ela-merece.html" target="_blank"><img class="c-pointer m-t-10 img-circle" src="img/projects/elamerece.png" alt="ela merece" height="88" style="vertical-align: middle"/></a>
+                    <div class="project-card row align-items-center">
+                        <div class="col-lg-2 text-center">
+                            <a href="portfolio/ela-merece.html" target="_blank"><img class="c-pointer img-circle" src="img/projects/elamerece.png" alt="ela merece" height="88" style="vertical-align: middle"/></a>
+                        </div>
+                        <div class="col-lg-7">
+                            <h3 class="mb-0">Ela Merece</h3>
+                            <div class="subheading mb-3">Relationship app between couples</div>
+                            <div class="t-10"><a href="portfolio/ela-merece.html" target="_blank"><span>see more</span></a></div>
+                        </div>
                     </div>
 
-                    <div class="col-lg-7">
-                        <h3 class="mb-0">Ela Merece</h3>
-                        <div class="subheading mb-3">Relationship app between couples</div>
-                        <div class="t-10"><a href="portfolio/ela-merece.html" target="_blank"><span>see more</span></a></div>
-                    </div>
-                </div>
-
-                <hr class="m-0">
-                <br>
-
-                <div class="row mb-5">
-                    <div class="col-lg-2 text-center">
-                        <a href="portfolio/ineed.html" target="_blank"><img class="c-pointer m-t-10" src="img/projects/ineed.png" alt="ineed" height="78" style="vertical-align: middle"/></a>
+                    <div class="project-card row align-items-center">
+                        <div class="col-lg-2 text-center">
+                            <a href="portfolio/ineed.html" target="_blank"><img class="c-pointer" src="img/projects/ineed.png" alt="ineed" height="78" style="vertical-align: middle"/></a>
+                        </div>
+                        <div class="col-lg-7">
+                            <h3 class="mb-0">iNeed</h3>
+                            <div class="subheading mb-3">Application to calculate the average enough to be approved</div>
+                            <div class="t-10"><a href="portfolio/ineed.html" target="_blank"><span>see more</span></a></div>
+                        </div>
                     </div>
 
-                    <div class="col-lg-7">
-                        <h3 class="mb-0">iNeed</h3>
-                        <div class="subheading mb-3">Application to calculate the average enough to be approved</div>
-                        <div class="t-10"><a href="portfolio/ineed.html" target="_blank"><span>see more</span></a></div>
-                    </div>
-                </div>
-
-                <hr class="m-0">
-                <br>
-
-                <div class="row mb-5">
-                    <div class="col-lg-2 text-center">
-                        <a href="portfolio/setupmyteam.html" target="_blank"><img class="c-pointer m-t-10 img-circle" src="img/projects/setypmyteam.png" alt="setupmyteam" height="76" style="vertical-align: middle"/></a>
-                    </div>
-
-                    <div class="col-lg-7">
-                        <h3 class="mb-0">Setupmyteam</h3>
-                        <div class="subheading mb-3">Platform that unites people, with different skills, to develop a project</div>
-                        <div class="t-10"><a href="portfolio/setupmyteam.html" target="_blank"><span>see more</span></a></div>
+                    <div class="project-card row align-items-center">
+                        <div class="col-lg-2 text-center">
+                            <a href="portfolio/setupmyteam.html" target="_blank"><img class="c-pointer img-circle" src="img/projects/setypmyteam.png" alt="setupmyteam" height="76" style="vertical-align: middle"/></a>
+                        </div>
+                        <div class="col-lg-7">
+                            <h3 class="mb-0">Setupmyteam</h3>
+                            <div class="subheading mb-3">Platform that unites people, with different skills, to develop a project</div>
+                            <div class="t-10"><a href="portfolio/setupmyteam.html" target="_blank"><span>see more</span></a></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -549,6 +721,57 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var MAX_HEIGHT = 260;
+            var containers = document.querySelectorAll('.exp-body');
+
+            containers.forEach(function (container) {
+                var fullHeight = container.scrollHeight;
+
+                var shouldCollapse = fullHeight > MAX_HEIGHT;
+                if (shouldCollapse) {
+                    container.classList.add('collapsible-long', 'is-collapsed');
+                    container.style.maxHeight = Math.min(MAX_HEIGHT, fullHeight) + 'px';
+                } else {
+                    container.style.maxHeight = 'none';
+                }
+
+                var toggle = document.createElement('button');
+                toggle.type = 'button';
+                toggle.className = 'exp-toggle';
+                toggle.textContent = 'Show more';
+
+                if (shouldCollapse) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                } else {
+                    toggle.setAttribute('aria-expanded', 'true');
+                    toggle.disabled = true;
+                }
+
+                toggle.addEventListener('click', function () {
+                    var isCollapsed = container.classList.contains('is-collapsed');
+
+                    if (isCollapsed) {
+                        container.classList.remove('is-collapsed');
+                        container.style.maxHeight = container.scrollHeight + 'px';
+                        toggle.textContent = 'Show less';
+                        toggle.setAttribute('aria-expanded', 'true');
+                        setTimeout(function () {
+                            container.style.maxHeight = 'none';
+                        }, 250);
+                    } else {
+                        container.classList.add('is-collapsed');
+                        container.style.maxHeight = Math.min(MAX_HEIGHT, container.scrollHeight) + 'px';
+                        toggle.textContent = 'Show more';
+                        toggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+
+                container.parentNode.appendChild(toggle);
+            });
+        });
+    </script>
 
 </body>
 
